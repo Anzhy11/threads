@@ -1,17 +1,5 @@
 "use client";
 
-<<<<<<< HEAD
-const AccountProfile = () => {
-    return(
-        <div>
-            Account Profile
-        </div>
-    )
-    
-}
-
-export default AccountProfile;
-=======
 import * as z from "zod";
 import Image from "next/image";
 import { useForm } from "react-hook-form";
@@ -230,4 +218,3 @@ const AccountProfile = ({ user, btnTitle }: Props) => {
 };
 
 export default AccountProfile;
->>>>>>> ad0aa612c3f1544b5e81a9d049c1a5f2ca65697b
